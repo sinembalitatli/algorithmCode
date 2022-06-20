@@ -4,8 +4,7 @@ import math
 
 # uzaklık veriyor
 def BruteForceClosestPair():
-    # doğrulama  20 4 7 ve 30 9 13 değerleri  için sağlandı
-    # sınırlar kesin doğrulanmalı
+    # sınırlar  kesin doğrulanmalı
     listx = []
     listy = []
     distances = []
