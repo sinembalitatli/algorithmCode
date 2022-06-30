@@ -1,0 +1,10 @@
+#tek tek girmek yerine
+import networkx as nx
+import matplotlib.pyplot as plt
+G = nx.Graph()
+e=[1,2,3,4,5,6,7]
+G.add_nodes_from(e)#tek tek verilidiğinde 2 tane alabiliyor sadece
+e1=[(1,2),(1,3),(2,4),(2,7),(3,5),(4,6),(5,6)]#edge ler içinde aynı  mantık
+G.add_edges_from(e1)
+nx.draw(G)
+plt.show()
