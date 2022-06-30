@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 #basit yönlü graf oluştur görselleştir
 
 import networkx as nx
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as 
 #basit yönlü graf oluştur görselleştir
 g=nx.DiGraph()#yönsüz için nx.Graph
 #digraph isteye bağlı veriler veya öznitelikleri depolar
