@@ -1,0 +1,12 @@
+
+import networkx as nx
+import matplotlib.pyplot as plt
+#basit yönlü graf oluştur görselleştir
+g=nx.DiGraph()
+#digraph isteye bağlı veriler veya öznitelikleri depolar
+g.add_node(1)
+g.add_node(2)
+
+g.add_edge(1,2)
+nx.draw(g)
+plt.show()
