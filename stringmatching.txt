@@ -1,3 +1,4 @@
+#bruteforce
 t="nobodynoticedhim"
 p="not"
 m = len(p)
