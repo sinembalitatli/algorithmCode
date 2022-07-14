@@ -1,3 +1,4 @@
+#bruteforce
 a=[89, 45, 68, 90, 29, 34, 17]
 n=len(a)
 for i in range(0,n-1):
