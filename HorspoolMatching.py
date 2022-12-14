@@ -9,7 +9,7 @@
 
 
 
-def ShiftTable(Table,P):#ilk atanan m değerikadar  azaltması gerektiğinde 0 yazmıyor m olarak bırakıyor
+def ShiftTable(Table,P):
 
     size=len(Table)
     m = len(P)
