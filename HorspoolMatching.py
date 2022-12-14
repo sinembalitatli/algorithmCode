@@ -9,7 +9,7 @@
 
 
 
-def ShiftTable(Table,P):
+def ShiftTable(Table,P):#ilk atanan m değerikadar  azaltması gerektiğinde 0 yazmıyor m olarak bırakıyor
 
     size=len(Table)
     m = len(P)
@@ -49,6 +49,6 @@ def HorspoolMatching(T,P):
 
 
 T=list("abaaabcd")
-P=list("abc")#6 azaltması gerektiğinde 0 yazmıyor 6 olarak bırakıyo
+P=list("abc")
 s=HorspoolMatching(T,P)
 print(s)
