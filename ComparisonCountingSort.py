@@ -2,7 +2,13 @@
 #Sorts an array by comparison counting
 #Input: An array A[0..n − 1] of orderable elements
 #Output: Array S[0..n − 1] of A’s elements sorted in nondecreasing order
-def ComparisonCountingSort(A, n,count,S):
+def ComparisonCountingSort(A, n):
+    count = list()
+    S = list()  # önceden boyutunu bilinmeyen ama boyutuna ihtiaycı olunan boş listeler için çözüm olabilir
+    for j in range(1, n + 1):
+        count.append(j)
+    for a in range(1, n + 1):
+        S.append(0)
 
     for i in range(0, n):
         count[i] = 0
@@ -19,6 +25,4 @@ def ComparisonCountingSort(A, n,count,S):
 
 A = [19, 31, 47, 62, 84, 96]
 n = len(A)
-count=[0,0,0,0,0,0]#liste boş boş olunca ininci eleman diye birşey olmuyor hata veriyor şimdilik geçiçci çözüm için
-S=[0,0,0,0,0,0]#
-ComparisonCountingSort(A, n,count,S)
+ComparisonCountingSort(A,n)
