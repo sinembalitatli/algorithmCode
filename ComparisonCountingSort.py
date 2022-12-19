@@ -6,7 +6,7 @@ def ComparisonCountingSort(A, n):
     count = list()
     S = list()  # önceden boyutunu bilinmeyen ama boyutuna ihtiaycı olunan boş listeler için çözüm olabilir
     for j in range(1, n + 1):
-        count.append(j)
+        count.append(0)
     for a in range(1, n + 1):
         S.append(0)
 
