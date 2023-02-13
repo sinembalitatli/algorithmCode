@@ -10,7 +10,7 @@ def OptimalBST(P):
     C = array(zeros((n+1,n+1)))
     R = array(zeros((n+1,n+1)))
     i=1
-    while i<=n:#burada sorun yok
+    while i<=n:
 
         C[i-1][i-1]=0
 
